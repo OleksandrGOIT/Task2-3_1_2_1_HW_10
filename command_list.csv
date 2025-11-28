@@ -3,7 +3,7 @@
     3  git config --global user.email "andrew@gmail.com"
     4  clear
     5  touch main_test.txt
-    6  
+    6  git add .
     7  git commit -m "main_test.txt is added"
     8  git push origin main
     9  git clone https://github.com/AndrewBondarev/HW_10.git  
@@ -18,11 +18,11 @@
    18  git commit -m "main_test.txt was created"
    19  
    20  touch develop_test.txt
-   21  
+   21  git add .
    22  git commit -m "develop_test.txt was created"
    23  nano develop_test.txt
    24  git status 
-   25  
+   25  git add .
    26  git commit -m "develop_test.txt was changed"
    27  git checkout main
    28  git merge develop
