@@ -11,10 +11,10 @@
    11  touch text_ignore.txt
    12  nano .gitignore
    13  git status
-   14  
+   14  git add .
    15  git commit -m "text_ignore.txt was ignored"
    16  touch main_test.txt
-   17  
+   17  git add .
    18  git commit -m "main_test.txt was created"
    19  
    20  touch develop_test.txt
